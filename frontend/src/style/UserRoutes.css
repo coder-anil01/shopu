@@ -1,0 +1,31 @@
+.user-routes{
+    width: 100vw;
+    min-height: 90vh;
+    background-image: linear-gradient(to right, #f5a9fe, #b0f996);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-routes-card{
+    width: 200px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px #6969697e;
+    display: flex;
+    flex-direction: column;
+}
+.user-routes-text{
+    margin: 20px 0 10px 0;
+}
+.user-routes-button{
+    background-color: #b0f996;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 20px 30px 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 6px 3px #6969697e;
+}
