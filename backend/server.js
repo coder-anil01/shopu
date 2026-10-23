@@ -48,6 +48,16 @@ app.use('/api/v1/wishlist', wishlistRoutes )
 app.use('/api/v1/cart', cartRoute )
 app.use("/api/v1/review", reviewRoutes);
 
+// Health Check Route
+app.get("/api/health", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "API is running",
+    status: "OK",
+    timestamp: new Date().toISOString(),
+  });
+});
+
 const PORT = process.env.PORT || 8080;
 
 //Listen
